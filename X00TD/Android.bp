@@ -214,13 +214,6 @@ dex_import {
 }
 
 dex_import {
-	name: "qti-telephony-common",
-	owner: "asus",
-	jars: ["proprietary/product/framework/qti-telephony-common.jar"],
-	product_specific: true,
-}
-
-dex_import {
 	name: "vendor.qti.hardware.fingerprint-V1.0-java",
 	owner: "asus",
 	jars: ["proprietary/product/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar"],
@@ -232,6 +225,13 @@ dex_import {
 	owner: "asus",
 	jars: ["proprietary/product/framework/vendor.qti.hardware.soter-V1.0-java.jar"],
 	product_specific: true,
+}
+
+dex_import {
+	name: "qti-telephony-common",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
+	system_ext_specific: true,
 }
 
 prebuilt_etc_xml {
