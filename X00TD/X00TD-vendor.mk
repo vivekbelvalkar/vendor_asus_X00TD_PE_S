@@ -1197,6 +1197,6 @@ PRODUCT_PACKAGES += \
     dpmapi \
     qcrilhook \
     vendor.qti.hardware.fingerprint-V1.0-java \
-    vendor.qti.hardware.soter-V1.0-java \
     qti-telephony-common \
+    vendor.qti.hardware.soter-V1.0-java \
     vendor.qti.gnss@3.0-service
